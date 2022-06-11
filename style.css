@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Chathura', sans-serif;
+}
+
+body {
+    background: url(https://dl.dropbox.com/s/466xo2wer1du5w5/Dark.jpg?dl=0);
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 450px;
+    height: 500px;
+    margin-top: 50px;
+    background: rgba(8, 0, 110, 0.205);
+    border-radius: 20px;
+    border:1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 13px #ffffff;
+}
+
+h2 {
+    color: white;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    font-size: 60px;
+    text-shadow: 1px 1px 14px cyan;
+}
+
+.hora {
+    max-width: 410px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 37px;
+    margin: 0 auto;
+}
+
+.reloj {
+    background: black;
+    padding: 12px;
+    border-radius: 25px;
+    border: #fff solid 7px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 25px cyan;
+}
+
+.reloj p {
+    font-family: "arial";
+    font-size: 16px;
+}
+
+.footer {
+    width: 100%;
+    color: white;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 0px cyan;
+
+}
+
+.credits {
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    text-shadow: 1px 1px 5px cyan;
+}
